@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    display: inline-block;
+}
+
+/* Header */
+
+header{
+    height: 791px;
+    background-color: grey;
+    background-image: url(img/img2.jpg);
+    background-size: cover;    
+}
+
+nav li{
+    float: right;
+    padding: 50px 30px;    
+}
+
+nav a{
+    color:grey;
+    font-size: 18px;
+}
+
+nav a:hover{
+    color: black;
+    border-bottom: 1px solid black;
+    padding-bottom: 2px;
+    transition: 0.5s;
+}
+
+.active{
+    color: black;
+    border-bottom: 1px solid black;
+    padding-bottom: 2px;
+}
+
+nav{
+    padding-right: 171px;
+}
+
+
+.judul{
+    float: left;
+    padding-top: 30px;
+    padding-left: 200px;
+    margin-top: 10px;
+}
+
+.text1{
+    margin-top: 150px;  
+    margin-left: 274px;
+    margin-right: 270px;  
+    font-size: 62px;    
+}
+
+.text2{
+    margin-top: 20px;  
+    margin-left: 150px;
+    margin-right: 270px; 
+    margin-bottom: 50px;     
+    font-size: 20px;    
+}
+
+.btn{
+    border: 2px solid black;
+    padding: 10px 55px;
+    font-size: 18px;
+    color: black;
+}
+
+.explore{
+    margin-left: 675px;                  
+}
+
+.explore:hover{
+    padding: 15px 57px;
+    background-color: black;
+    color: indianred;
+    transition: 0.3s;
+    margin-left: 673px;
+}
+
+.explore:active{
+    margin-left: 675px;      
+    padding: 8px 53px;
+    transition: 0.1s;
+}
+
+
+/* Akhir Header */
+
+
+
+
+/* Main */
+
+main{
+    background-image: url(img/img1.jpg);
+    background-size: cover;
+}
+
+.container{
+    background-color:rgba(32, 29, 29, 0.699);
+    height: 1000px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.des img{
+    width: 455px;
+    height: 250px;    
+    margin-left: 70px;  
+    margin-bottom: 50px;        
+    float: left;    
+}
+
+.des img:hover{
+    position: relative;
+    left: 10px;
+    bottom: 5px;        
+    opacity: 0.7;
+    cursor: pointer;  
+    transition: 0.7s;  
+}
+
+
+.des h2{
+    padding-top: 90px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: indianred;
+    font-size: 36px;
+}
+
+.des p{
+    text-align: center;
+    width: 70%;
+    color: blanchedalmond;
+    padding-left: 170px;
+    margin-bottom: 70px;
+}
+
+/* .fd {
+    text-align: center;
+    padding-bottom: 20px;
+    color: indianred;
+    padding-top: 90px;
+    font-size: 36px;
+} */
+
+.show{
+    margin-left: 450px;    
+}
+
+.show:hover{
+    padding: 15px 57px;
+    background-color: black;
+    color: indianred;
+    transition: 0.3s;    
+}
+
+.show:active{
+    padding: 13px 55px;
+}
+
+
+
+/* Akhir Main */
+
+
+
+/* Footer */
+
+footer{
+    background-color: rgb(85, 85, 85);
+    height: 90px;            
+}
+
+footer li{
+    float: left;      
+}
+
+footer img{
+    width: 30px;            
+    padding-left: 10px;    
+}
+
+footer ul{
+    margin-left: 670px;    
+}
+
+footer p{
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+/* Akhir Footer */

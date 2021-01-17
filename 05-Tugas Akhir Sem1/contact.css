@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h2{
+    display: inline-block;
+}
+
+
+/* Header */
+
+header{
+    height: 791px;
+    background-color: grey;
+    background-image: url(img/img5.jpg);        
+    background-size: cover;    
+}
+
+nav li{
+    float: right;
+    padding: 50px 30px;    
+}
+
+nav a{
+    color:grey;
+    font-size: 18px;
+}
+
+nav a:hover{
+    color: black;
+    border-bottom: 1px solid black;
+    padding-bottom: 2px;
+    transition: 0.5s;
+}
+
+.active{
+    color: black;
+    border-bottom: 1px solid black;
+    padding-bottom: 2px;
+}
+
+nav{
+    padding-right: 171px;
+}
+
+
+.judul{
+    float: left;
+    padding-top: 30px;
+    padding-left: 200px;
+    margin-top: 10px;
+}
+/* Akhir Header */
+
+
+
+/* Main */
+main{
+    background-image: url(img/img1.jpg);
+    background-size: cover;
+}
+
+.container{
+    background-color:rgba(32, 29, 29, 0.699);
+    height: auto;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.contact-form{    
+    position: relative;    
+    left: 45px;
+}
+
+.contact{
+    background-color: rgb(107, 114, 114);
+    margin: auto;
+    position: relative;
+    top: 190px;
+    left: -200px;
+    width: 450px;
+    height: 500px;    
+}
+
+.contact-judul{
+    position: relative;
+    top: 50px;
+    left: 155px;
+    font-size: 20px;
+}
+
+iframe{
+    position: absolute;
+    left: 450px;
+    top: 0px;    
+}
+
+.contact-form input, textarea{
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    background-color: transparent;
+    margin-bottom: 50px;
+    width: 80%;
+    height: 30px;
+}
+
+input::placeholder, textarea::placeholder{
+    color: white;
+}
+
+textarea{
+    height: 50px;
+}
+
+.contact-form input{
+    width: 80%;
+    height: 30px;
+}
+
+.btn{
+    width: 200px;
+    height: 50px;
+    margin-left: 120px;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+}
+
+.btn:active{
+    width: 190px;
+    height: 40px;
+}
+
+/* Akhir Main */
+
+
+
+/* Footer */
+
+footer{
+    background-color: rgb(85, 85, 85);
+    height: 90px;            
+}
+
+footer li{
+    float: left;      
+}
+
+footer img{
+    width: 30px;            
+    padding-left: 10px;    
+}
+
+footer ul{
+    margin-left: 670px;    
+}
+
+footer p{
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+/* Akhir Footer */

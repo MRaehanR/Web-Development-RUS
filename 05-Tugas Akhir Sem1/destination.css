@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    display: inline-block;
+}
+
+/* Header */
+
+header{
+    height: 500px;
+    background-color: grey;
+    background-image: url(img/img.jpg);
+    background-size: cover;    
+}
+
+nav li{
+    float: right;
+    padding: 50px 30px;    
+}
+
+nav a{
+    color:grey;
+    font-size: 18px;
+}
+
+nav a:hover{
+    color: black;
+    border-bottom: 1px solid black;
+    padding-bottom: 2px;
+    transition: 0.5s;
+}
+
+.active{
+    color: black;
+    border-bottom: 1px solid black;
+    padding-bottom: 2px;
+}
+
+nav{
+    padding-right: 171px;
+}
+
+
+.judul{
+    float: left;
+    padding-top: 30px;
+    padding-left: 200px;
+    margin-top: 10px;
+}
+
+.text1{
+    margin-top: 150px;  
+    margin-left: 310px;
+    margin-right: 270px;  
+    font-size: 62px;    
+}
+
+
+.text2{
+    margin-top: 20px;  
+    margin-left: 150px;
+    margin-right: 270px; 
+    margin-bottom: 50px;     
+    font-size: 20px;    
+}
+
+.btn{
+    border: 2px solid black;
+    padding: 10px 55px;
+    font-size: 18px;
+    color: black;
+}
+
+.explore{
+    margin-left: 675px;                  
+}
+
+.explore:hover{
+    padding: 12px 57px;
+    background-color: black;
+    color: indianred;
+    transition: 0.3s;
+    margin-left: 673px;
+}
+
+.explore:active{
+    margin-left: 675px;      
+    padding: 8px 53px;
+    transition: 0.1s;
+}
+
+
+/* Akhir Header */
+
+/* Main */
+main{
+    background-image: url(img/img1.jpg);
+    background-size: cover;
+}
+
+.container{
+    background-color:rgba(32, 29, 29, 0.699);
+    height: auto;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.des{
+    text-align: center;
+    padding-top: 130px;   
+}
+
+.des img{
+    width: 768px;
+    height: auto;
+     
+}
+
+.des h2{
+    margin-top: 20px;  
+    font-size: 32px;  
+    color: indianred;
+}
+
+.des p{
+    font-size: 18px;
+    display: inline-block;
+    width: 768px;
+    margin-top: 10px;
+    color: blanchedalmond;
+}
+
+#des3{
+    padding-bottom: 100px;
+}
+/* Akhir Main */
+
+/* Footer */
+
+footer{
+    background-color: rgb(85, 85, 85);
+    height: 90px;            
+}
+
+footer li{
+    float: left;      
+}
+
+footer img{
+    width: 30px;            
+    padding-left: 10px;    
+}
+
+footer ul{
+    margin-left: 670px;    
+}
+
+footer p{
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+/* Akhir Footer */
