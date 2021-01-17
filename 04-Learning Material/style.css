@@ -1,0 +1,136 @@
+html {
+
+}
+
+a {
+	text-decoration: none;
+	color: grey;
+	margin-left: 40px;
+	font-size: 18px;
+}
+
+
+body {
+	background-color: black;
+	color: white;
+}
+
+
+
+.btn {	
+	padding: 5px 20px;
+	font-size: 16px;
+	margin-left: 375px;
+	border : 3px solid #2840b7;	
+}
+
+
+.btn:hover {
+	background-color: #2840b7;
+	color: white;
+}
+
+
+.container {
+	margin: 40px auto;
+	width: 100%;	
+}
+
+
+.col {
+	float: left;
+	width: 50%;
+	font-size: 18px;
+	margin-bottom: 60px;	
+}
+
+
+#desc {
+	float: left;
+}
+
+
+footer {
+	background-color: white;
+	width: 100%;
+	height: 50px;
+	margin-top: 850px;	
+
+}
+
+
+input[type=text], [type=email], textarea{
+	width: 80%;
+	margin: 10px;
+	font-size: 13pt;
+	padding: 10px;	
+	background: transparent;
+	color: #fff;
+	border-color: #2840b7;	
+}
+
+
+nav {
+	background-color: white;
+	width: 100%;
+	height: 60px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: -10px;	
+	
+}
+
+
+#nav-name {
+	font-size: 28px;	
+	padding-top: 0px;	
+	margin-right: 20px;	
+	padding-left: 10px;
+}
+
+
+.navbar li {
+	float: left;
+	color: black;
+	font-size: 28px;
+}
+
+
+.navbar ul {
+	list-style-type: none;
+}
+
+
+.navbar a:hover {
+	color: black;
+}
+
+
+.row {
+	width: 70%;
+	margin: 0 auto;
+}
+
+select {
+	background-color: transparent;
+	color: grey;
+	padding: 10px 310px 10px 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-size: 16px;
+	border : 1px solid #2840b7;
+}
+
+
+table {
+	margin: 20px 0px 80px 0px;
+}
+
+
+td {
+	padding: 20px 40px 20px 50px;
+	font-size: 21px;
+}
+
+
