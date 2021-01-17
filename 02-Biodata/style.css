@@ -1,0 +1,50 @@
+body{
+	background-image: url('img/b1.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	text-align: center;
+}
+
+img{
+	margin-top: 140px;
+	width: 170px;
+	height: 170px;
+	border-radius: 100%;
+}
+
+h2{
+	color: black;
+	
+}
+
+.text{
+	font-size: 20px;
+	color: darkgrey;
+	margin: 0 auto;
+	padding-top: 20px;
+	width: 680px;
+	height: auto;
+}
+
+
+a:link, a:visited {
+	background-color: transparent;
+    color: white;
+    border: 2px solid black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+a:hover, a:active {
+  background-color : black;
+}
+
+.social{
+	text-align: center;
+	font-size: 18px;
+	color:darkgrey;
+}
